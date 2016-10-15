@@ -1,0 +1,223 @@
+/* CSS Document */
+body 	{
+	background-image: url(../Images/Background.jpg) /*url(../Images/bg-body.jpg) repeat left top*/;
+		background-repeat: repeat;
+}
+#wrapper {
+	background-color:#FFF;	
+	width:1050px;
+	height:auto;
+	margin: 20px auto;
+	border-style:ridge;
+	/*box-shadow: 0px 0px 20px rgba(0, 0, 0, .10),
+				0px 10px 20px rgba(0,0,0,0.05),
+				0px 20px 20px rgba(0,0,0,0.05),
+				0px 30px 20px rgba(0,0,0,0.05);*/
+}
+
+.Menu {	background-color:#00A3FF;
+		width: auto;
+		padding:8px 21px;
+		text-decoration:none;
+		border-bottom: 3px #B0B0B0 solid;
+		font-size:25px;	
+}
+
+/* JEE-Spot
+#Logo 	{	float:left;	
+			margin-top:30px;
+			margin-left:21px;
+			margin-bottom: 17px;
+}*/
+
+/*Study Insider */
+#Logo 	{	float:left;	
+			margin-top:30px;
+			margin-left:40px;
+			margin-bottom: 27px;
+}
+					
+ul#Logos li {	
+	display: inline;
+}
+
+#SocialMedia 	{	float: right;
+	margin-top: 47px;
+	margin-right: 41px;
+	padding-bottom:25px;
+	padding-top:4px;
+}
+
+#MainMenu 	{	clear:both;
+				margin-left:20px;
+				padding-bottom:17px;
+}
+
+#Facbook, #GooglePlus, #Instagram, #Twitter {
+	transition: all .1s ease-in-out;
+}
+
+#Facbook:hover, #GooglePlus:hover, #Instagram:hover, #Twitter:hover 	{
+	transform: scale(1.13);
+}
+
+ul#Menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#006CB1;
+	width: 900px;
+	margin-right:63px;
+	margin-left:57px;
+	border-radius:5px;
+	font-size:20px;
+}
+
+ul#Menu li {
+    float: left;
+}
+
+
+/* WITH MISC/TIPS BUTTON
+
+.BooksButton, .TestsButton, .active {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+	width: 96px;
+	border-radius:5px;
+	transition: all .1s ease-in-out;
+}
+
+.StudyMaterialButton 	{
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+	width: 149px;
+	border-radius:5px;
+	transition: all .1s ease-in-out;
+}
+
+.ContactUsButton {
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+	width: 125px;
+	border-radius:5px;
+	transition: all .1s ease-in-out;
+}*/
+
+/*WITHOUT MISC/TIPS BUTTON*/
+
+.BooksButton, .TestsButton, .active {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+	width: 120px;
+	border-radius:5px;
+	transition: all .1s ease-in-out;
+}
+
+.StudyMaterialButton 	{
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+	width: 155px;
+	border-radius:5px;
+	transition: all .1s ease-in-out;
+}
+
+.ContactUsButton {
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+	width: 138px;
+	border-radius:5px;
+	transition: all .1s ease-in-out;
+}
+
+.Books:hover .BooksButton, .StudyMaterial:hover .StudyMaterialButton, .Tests:hover .TestsButton, .active:hover, .ContactUsButton:hover {
+    background-color:#0084d8;
+	transform: scale(1.09);
+	color:white;
+}
+
+li.Books, .StudyMaterial, .Tests {
+    display: inline-block;
+}
+
+.Books-Content, .StudyMaterial-Content, .Tests-Content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.Books-Content a, .StudyMaterial-Content a, .Tests-Content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-size:17px;
+    text-align: left;
+}
+
+.Books-Content a:hover, .StudyMaterial-Content a:hover, .Tests-Content a:hover 	{
+	background-color:#e4e4e4;
+}
+
+.Books:hover .Books-Content, .StudyMaterial:hover .StudyMaterial-Content, .Tests:hover .Tests-Content {
+    display: block;
+	-webkit-animation: fadein 0.5s;
+   	-moz-animation: fadein 0.5s;
+    -ms-animation: fadein 0.5s;  
+    -o-animation: fadein 0.5s; 
+    animation: fadein 0.5s;
+}
+
+
+/* FADE ANIMATION */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* END FADE ANIMATION */
+
+
+
+
+

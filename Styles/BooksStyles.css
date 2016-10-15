@@ -1,0 +1,77 @@
+#BooksHeading 	{
+	margin-top:29px;
+	margin-left: 90px;
+	margin-bottom: 40px;
+}
+
+.heading {
+    font-size: 27px;
+    margin-left: 125px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+	color:#0094f2;
+	transition: all .1s ease-in-out;
+}
+
+.heading:hover 	{
+	color:#00548a;
+}
+
+table {
+	
+	  font-family: 'Arial';
+	  margin-left:140px;
+	  border-collapse: collapse;
+	  border: 1px solid #eee;
+	  border-bottom: 3px solid #00438A;
+}
+
+td:empty 	{
+	display:none;
+}
+
+td:hover {
+      background: #dbdbdb;
+}
+
+td {
+    color: #999;
+    border: 1px solid #e7e7e7;
+    border-collapse: collapse;
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 7px 10px 15px rgba(0, 0, 0, .4);
+	transition: all .1s ease-in-out;
+	
+}
+
+td:hover 	{
+	transform: scale(1.03);
+}
+
+tr a 	{
+	text-decoration:none;
+	color:#000000;
+	display:block;
+	padding: 12px 35px;
+	width:186px;
+	text-align:center;
+}
+
+.Thumbnail 	{
+	margin-top:9px;
+}
+
+#BooksHeading {
+	font-size:38px;
+	margin-top:25px;
+	/*width: 370px;*/
+	width:100px;
+	margin-left: 90px;
+	color:#00548a;
+	transition:all .2s ease-in-out;
+}
+
+#BooksHeading:hover 	{	
+	color:#0094f2;
+}
+

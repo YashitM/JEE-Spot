@@ -1,0 +1,27 @@
+#TipsHeading{
+	font-size:38px;
+	margin-top:25px;
+	/*width: 370px;*/
+	width:70px;
+	margin-left: 90px;
+	color:#00548a;
+	transition:all .2s ease-in-out;
+}
+
+#TipsHeading:hover 	{
+	color:#0094f2;
+}
+#TipsContent 	{
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:22px;
+	width:800px;
+	margin-top:30px;
+}
+
+#TipsContent ul li 	{
+	list-style-type:none;
+}
+
