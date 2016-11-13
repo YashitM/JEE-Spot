@@ -1,0 +1,154 @@
+
+
+#ArduinoHeading{
+	font-size:38px;
+	margin-top:25px;
+	/*width: 370px;*/
+	width:280px;
+	margin-left: 90px;
+	color:#00548a;
+	transition:all .2s ease-in-out;
+}
+
+#ArduinoHeading:hover 	{
+	color:#0094f2;
+}
+
+#IntroMessage {
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:22px;
+	width:800px;
+	margin-top:30px;
+}
+
+table {
+	margin-top:35px;
+	font-family: 'Arial';
+	margin-left:100px;
+	border-collapse: collapse;
+	border: 1px solid #eee;
+	border-bottom: 3px solid #00438A;
+}
+
+td:empty 	{
+	display:none;
+}
+
+td:hover {
+      background:#dbdbdb;
+}
+
+td {
+    color: #999;
+    border: 1px solid #eee;
+    border-collapse: collapse;
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 7px 10px 15px rgba(0, 0, 0, .4);
+	transition: all .1s ease-in-out;
+}
+
+td:hover 	{
+	transform: scale(1.01);
+}
+
+tr a	{
+	text-decoration:none;
+	color:#000000;
+	padding: 12px 35px;
+	width:186px;
+	display:block;
+}
+
+.ArduinoTable ul li.first 	{
+	list-style-type:none;
+}
+
+.ArduinoDownload	{
+	text-decoration:none;
+}
+
+
+/*POPUP*/
+/*.popup {
+    visibility:hidden;
+    opacity:0;        
+    transition:visibility 0s linear 0.3s,opacity 0.3s linear;
+    transition: all 0.4s ease;
+    transition-delay:  1s;
+	margin-top:13px;
+	padding: 10px 20px 20px 5px;
+	min-width:500px;
+}
+.Topic:hover .popup {
+    visibility:visible;
+    opacity:1;
+    transition: all 0.3s ease;
+    transition-delay:  0s;    
+}       
+
+.Topic:hover 	{
+	background-color:#0084d8;
+	color: white;    
+}
+
+
+.two {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 0.5px solid #DADADA;
+    color: #333333;
+    overflow:hidden;
+    left: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 30px;
+}*/
+
+/*#GeneralButton {
+    background:#FFF;
+    position:relative;
+    width:100px;
+    height:30px;
+    line-height:27px;
+    display:block;
+    border:1px solid #dadada;
+    margin:15px 0 0 20px;
+    text-align:center;
+}
+*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    min-width:500px;
+    background-color: #EEEEEE;
+    color: black;
+    border-radius: 2px;
+    padding: 10px 10px 10px 3px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    /*left: 50%;
+    margin-left: -60px;*/
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.RequiredHeading 	{
+	margin-bottom:10px;
+	margin-top:3px;
+}

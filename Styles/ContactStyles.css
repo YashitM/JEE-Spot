@@ -239,6 +239,7 @@ input.placeholder-text, textarea.placeholder-text  {
 	position: relative;
 	float:right;
 }
+
 .btn-default:hover {
 	background-color:#0084d8;
 }
